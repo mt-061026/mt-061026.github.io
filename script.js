@@ -6,10 +6,6 @@ const calendarLink = document.querySelector('.calendar-link');
 if (isAppleMobile && calendarLink) {
   calendarLink.href = 'webcal://mt-061026.github.io/wedding.ics';
   calendarLink.setAttribute('aria-label', 'Открыть календарь свадьбы в Apple Calendar');
-  const calendarHint = document.createElement('p');
-  calendarHint.className = 'calendar-hint';
-  calendarHint.textContent = 'Apple Calendar предложит подписку на календарь с одним событием — нашей свадьбой.';
-  calendarLink.after(calendarHint);
 }
 
 const wedding = {
