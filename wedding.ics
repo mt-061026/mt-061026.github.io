@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mikhail and Tatyana Wedding//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Свадьба Михаила и Татьяны
+BEGIN:VEVENT
+UID:mikhail-tatyana-wedding-20261006
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Свадьба Михаила и Татьяны
+LOCATION:Артиленд\, Балашиха\, Новское шоссе\, 
+ 10\, корпус 1
+DESCRIPTION:Начало в 14:30 по московскому времен
+ и.\n14:30 — сбор гостей и фуршет\n15:00 — церем
+ ония\n15:30 — начало банкета\n20:10 — тортик
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

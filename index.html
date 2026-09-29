@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#eee6d8" />
+    <meta name="description" content="Приглашение на свадьбу" />
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#invitation">Перейти к приглашению</a>
+    <header class="hero" id="top">
+      <div class="hero-media"><img src="cover.jpg" alt="Пара на фоне осеннего леса у воды" width="896" height="1195" fetchpriority="high" /></div>
+      <nav class="topbar" aria-label="Навигация">
+        <a class="monogram" href="#top" aria-label="В начало">М · Т</a>
+        <a href="#story">О событии</a>
+        <a href="#program">Программа</a>
+        <a href="#place">Место</a>
+        <a href="#details">Детали</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow light-text">Мы женимся</p>
+        <div class="hero-rule"></div>
+        <h1><span data-edit="firstName">Имя</span><span class="hero-conjunction">и</span><span data-edit="secondName">Имя</span></h1>
+        <p class="hero-date" data-edit="dateLong">Осень · 2026</p>
+        <a class="button button-light" href="#invitation">Открыть приглашение <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-bottom" aria-hidden="true"><span>01 / 05</span><span>Листайте вниз</span></div>
+    </header>
+
+    <main id="invitation">
+      <section class="section intro" id="story">
+        <p class="eyebrow">Приглашение</p>
+        <h2>Дорогие родные<br />и друзья!</h2>
+        <div class="fine-rule"></div>
+        <p class="lead">В нашей истории начинается новая глава. Мы будем счастливы, если вы разделите с нами этот тёплый и важный день.</p>
+        <p class="signature">С любовью, <span data-edit="namesShort">мы вдвоём</span></p>
+        <span class="section-number">01</span>
+      </section>
+
+      <section class="section date-section">
+        <div class="date-card">
+          <a class="eyebrow calendar-link" href="wedding.ics" type="text/calendar" aria-label="Сохранить дату свадьбы в календаре">Сохраните дату</a>
+          <p class="date-big" data-edit="dateDay">—</p>
+          <h2 data-edit="dateMonth">Октябрь</h2>
+          <p class="date-year" data-edit="dateYear">2026</p>
+          <div class="date-divider"></div>
+          <p data-edit="dateNote">Ждём вас на нашем празднике</p>
+        </div>
+        <div class="date-aside">
+          <p class="eyebrow">До встречи осталось</p>
+          <div class="countdown" aria-live="off">
+            <div><strong id="days">—</strong><span>дней</span></div>
+            <div><strong id="hours">—</strong><span>часов</span></div>
+            <div><strong id="minutes">—</strong><span>минут</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section program" id="program">
+        <div class="section-heading"><p class="eyebrow">Этот день</p><h2>Программа<br />праздника</h2><p>Наш план на день — чтобы вы могли просто наслаждаться каждым моментом.</p></div>
+        <ol class="timeline">
+          <li><span class="time">14:30</span><div><h3>Сбор гостей и фуршет</h3></div></li>
+          <li><span class="time">15:00</span><div><h3>Церемония</h3></div></li>
+          <li><span class="time">15:30</span><div><h3>Начало банкета</h3></div></li>
+          <li><span class="time">20:10</span><div><h3>Тортик</h3></div></li>
+        </ol>
+        <span class="section-number">02</span>
+      </section>
+
+      <section class="section place" id="place">
+        <div class="place-art" aria-hidden="true">
+          <div class="forest-panel">
+            <span class="forest-panel-caption">Шатёр в лесу</span>
+            <svg class="forest-map" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+              <path class="forest-path" d="M156 493C133 435 202 423 208 388C216 355 191 344 200 315" />
+              <path class="forest-ground" d="M52 336c44-8 77-8 108 0M245 336c39-9 73-9 112 1" />
+              <g class="forest-tree" transform="translate(79 156)"><path d="M0-59 28-13H16L36 16H-36L-16-13H-28Z"/><path d="M0 16v31"/></g>
+              <g class="forest-tree soft" transform="translate(321 139)"><path d="M0-51 24-10H14L31 17H-31L-14-10H-24Z"/><path d="M0 17v28"/></g>
+              <g class="forest-tree muted" transform="translate(50 294)"><path d="M0-42 20-8H11L27 15H-27L-11-8H-20Z"/><path d="M0 15v25"/></g>
+              <g class="forest-tree" transform="translate(351 282)"><path d="M0-55 26-10H15L34 17H-34L-15-10H-26Z"/><path d="M0 17v30"/></g>
+              <g class="forest-tree soft" transform="translate(291 352)"><path d="M0-34 17-7H10L23 12H-23L-10-7H-17Z"/><path d="M0 12v20"/></g>
+              <g class="forest-tree muted" transform="translate(120 374)"><path d="M0-31 15-6H9L20 10H-20L-9-6H-15Z"/><path d="M0 10v18"/></g>
+              <path class="tent-roof" d="M104 235 200 163 296 235 283 254H117Z" />
+              <path class="tent-frame" d="M117 253v80M283 253v80M117 333h166M200 163v87" />
+              <path class="tent-canvas" d="M147 253v80h106v-80" />
+              <path class="tent-entrance" d="M179 333 200 266l21 67" />
+              <path class="tent-detail" d="M114 252h172M139 304h32M229 304h32" />
+              <circle class="forest-dot" cx="77" cy="406" r="4" /><circle class="forest-dot" cx="92" cy="418" r="2.5" />
+              <circle class="forest-dot" cx="325" cy="404" r="3.5" /><circle class="forest-dot" cx="338" cy="413" r="2.5" />
+            </svg>
+          </div>
+        </div>
+        <div class="place-copy"><p class="eyebrow">Место встречи</p><h2>Там, где станет<br />особенно тепло</h2><div class="fine-rule left"></div><p class="venue" data-edit="venue">Название площадки</p><p class="address" data-edit="address">Адрес появится здесь</p><a class="text-link" id="map-link" href="#place" aria-disabled="true">Построить маршрут <span aria-hidden="true">↗</span></a></div>
+        <span class="section-number">03</span>
+      </section>
+
+      <section class="section details" id="details">
+        <div class="section-heading center"><p class="eyebrow">Небольшие подсказки</p><h2>Детали<br />праздника</h2></div>
+        <div class="details-grid">
+          <article><span class="detail-index">01 /</span><h3>Дресс-код</h3><p>Особого дресс-кода нет. Главное, чтобы всем было комфортно и тепло. И не забудьте платочки — будет много радостных слёз.</p></article>
+          <article><span class="detail-index">02 /</span><h3>Подарки</h3><p>Ваше присутствие — уже большой подарок.</p></article>
+          <article><span class="detail-index">03 /</span><h3>Пожелания</h3><p>Если у вас есть вопросы о празднике, напишите нам. Мы с радостью поможем подготовиться к встрече.</p></article>
+        </div>
+        <span class="section-number">04</span>
+      </section>
+
+      <section class="section closing">
+        <p class="eyebrow">До скорой встречи</p>
+        <h2>Очень ждём<br />этот день с вами</h2>
+        <p>Пусть он станет тёплым воспоминанием для каждого из нас.</p>
+        <div class="closing-mark" aria-hidden="true">♡</div>
+        <a class="back-top" href="#top">Наверх ↑</a>
+        <span class="section-number">05</span>
+      </section>
+    </main>
+    <footer class="contact-footer" id="contacts">
+      <p class="eyebrow">Если появятся вопросы</p>
+      <h2>Контакты координатора</h2>
+      <div class="contact-row"><span>Елена</span><a href="tel:+79858746776">+7 985 874 6776</a></div>
+    </footer>
+  </body>
+</html>
