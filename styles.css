@@ -21,6 +21,7 @@
 
 .date-card .calendar-link{display:inline-block;border:1px solid #b99777;padding:13px 17px;margin-bottom:24px;text-decoration:none;color:var(--clay);background:rgba(255,255,255,.22);transition:background-color .2s ease,color .2s ease}
 .date-card .calendar-link:hover,.date-card .calendar-link:focus-visible{background:var(--clay);color:#fff}
+.date-card .calendar-hint{max-width:260px;margin:-10px auto 22px;font-size:12px;line-height:1.6;color:var(--muted)}
 
 /* Осенняя иллюстрация рядом с адресом площадки. */
 .leaf-panel{position:relative;display:grid;place-items:center;width:min(100%,350px);height:440px;background:#f1e7d8;border:1px solid #cdb99f}
